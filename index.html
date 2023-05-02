@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="header__title">Погодник</h1>
+            <form class="form">
+                <input type="text" class="input" placeholder="Введите название города">
+                <button class="btn">Показать</button>
+            </form>
+        </header>
+        <div class="wrapper">
+            <div class="forecast">
+                <div class="forecast__inner">
+                    <div class="param">
+                        <div class="country">Страна:</div>
+                        <div class="country_value"></div>
+                    </div>
+                    <div class="param">
+                        <div class="region">Регион:</div>
+                        <div class="region_value"></div>
+                    </div>
+                    <div class="param">
+                        <div class="city">Город:</div>
+                        <div class="city_value"></div>
+                    </div>
+                    <div class="param">
+                        <div class="temp">Температура:</div>
+                        <div class="temp_value"></div>
+                    </div>
+                    <div class="param">
+                        <div class="fl">Ощущается как:</div>
+                        <div class="fl_value"></div>
+                    </div>
+                    <div class="param">
+                        <div class="wind">Ветер:</div>
+                        <div class="wind_value"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
